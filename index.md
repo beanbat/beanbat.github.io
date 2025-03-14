@@ -1,9 +1,11 @@
 ---
 layout: default
-title: My public repositories
+title: My GitHub Pages
 ---
 
-# Some kewl projects :
+## 🚀 My Projects Hosted on GitHub Pages:
+
 {% for repo in site.github.public_repositories %}
-- [{{ repo.name }}]({{ repo.html_url }})
+{% assign page_url = "https://" | append: site.github.owner_name | append: ".github.io/" | append: repo.name %}
+- [{{ repo.name }}]({{ page_url }}) 🚀
 {% endfor %}
