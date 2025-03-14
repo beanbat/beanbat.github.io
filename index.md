@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Mes Repos GitHub
+title: My public gis
 ---
 
-## 🚀 Mes repositories publics :
+# Some kewl projects :
 {% for repo in site.github.public_repositories %}
 - [{{ repo.name }}]({{ repo.html_url }})
 {% endfor %}
