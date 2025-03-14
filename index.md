@@ -1,6 +1,6 @@
 ---
 layout: default
-title: My public gis
+title: My public repositories
 ---
 
 # Some kewl projects :
